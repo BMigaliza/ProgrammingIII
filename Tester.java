@@ -27,6 +27,7 @@ public class Tester {
         if(args[0].equals("table")){
             tester1.table(Integer.parseInt(args[1]));
         }
+        
  
         
     }
