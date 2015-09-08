@@ -8,6 +8,7 @@
  *
  * @author Bt
  */
+import java.io.*; 
 public class Tester {
     /*
     The function find the multiplication table of the parameters entrered 
@@ -22,9 +23,11 @@ public class Tester {
     
     
     public static void main(String[] args){
-        
-        //Tester tester1 = new Tester();
-        
+        Tester tester1 =new Tester();
+        if(args[0].equals("table")){
+            tester1.table(Integer.parseInt(args[1]));
+        }
+ 
         
     }
     
