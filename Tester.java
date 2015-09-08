@@ -23,8 +23,8 @@ public class Tester {
     
     public static void main(String[] args){
         
-        Tester tester1 = new Tester();
-        tester1.table(4);
+        //Tester tester1 = new Tester();
+        
         
     }
     
